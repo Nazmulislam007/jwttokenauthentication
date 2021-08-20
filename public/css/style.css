@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+/* ?home page */
+.home-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: rgb(215, 236, 255);
+}
+.home-container h1 {
+  font-size: 50px;
+}
+/* ?register page */
+.container {
+  height: 100vh;
+}
+.row {
+  max-width: 600px;
+  width: 95%;
+}
+.form-control:focus {
+  color: #212529;
+  background-color: #fff;
+  border: 2px solid #86b7fe;
+  outline: 0;
+  box-shadow: 0 0 0 black;
+}

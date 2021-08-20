@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    {{>link}}
+</head>
+
+<body>
+    <div class="container d-flex align-items-center justify-content-center">
+        {{>menu}}
+        <div class="row">
+            <h1 class="text-center mb-5 h3">LogIn Form</h1>
+            <form method="POST" action="/login">
+                <div class="mb-3">
+                    <label class="form-label">Email address</label>
+                    <input name="email" type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                </div>
+                <div class="mb-3">
+                    <label  class="form-label">Password</label>
+                    <input name="password" type="password" class="form-control" id="exampleInputPassword1">
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+        </div>
+
+    </div>
+{{>script}}
+</body>
+
+</html>
